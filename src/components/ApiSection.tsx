@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const requestExample = `curl -X POST https://tailwind-prefixer.web.app/api/prefix \\
+const requestExample = `curl -X POST https://tailwind-prefixer.vercel.app/api/prefix \\
   -H "Content-Type: application/json" \\
   -d '{
     "prefix": "tw-",

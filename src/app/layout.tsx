@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Script from "next/script";
 
-const siteUrl = "https://tailwind-prefixer.web.app";
+const siteUrl = "https://tailwind-prefixer.vercel.app";
 const siteName = "Tailwind Prefixer";
 const siteDescription =
   "Add custom prefixes to your Tailwind CSS classes instantly. The fastest way to namespace Tailwind utilities for any framework — React, Vue, Angular, Svelte, and more.";
