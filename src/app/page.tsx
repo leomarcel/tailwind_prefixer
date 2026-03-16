@@ -1,6 +1,7 @@
 import { InputTransform } from "@/components/InputTransform";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ApiSection } from "@/components/ApiSection";
 
 export default function Home() {
   return (
@@ -103,6 +104,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* API Section */}
+        <ApiSection />
 
         {/* Use Cases Section */}
         <section className="py-16 sm:py-24 border-t border-border/40">

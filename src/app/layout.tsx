@@ -148,7 +148,7 @@ export default function RootLayout({
         className="antialiased"
         suppressHydrationWarning={true}
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="min-h-screen flex flex-col">
             {children}
           </div>
